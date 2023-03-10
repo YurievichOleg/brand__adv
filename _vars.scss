@@ -1,0 +1,6 @@
+$widthSite: 1600px;
+$widthProductSite: 1140px;
+$colorText: #F16D7F;
+$gapGrid: 30px;
+$widthProductBlock: (
+    $widthProductSite - $gapGrid * 2) / 3;
