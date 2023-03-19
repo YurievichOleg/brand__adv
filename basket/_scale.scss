@@ -1,0 +1,11 @@
+@mixin scale() {
+    transform: scale(1.2);
+}
+
+@mixin scale1() {
+    transform: scale(1.1);
+}
+
+@mixin time03() {
+    transition: 0.3s;
+}

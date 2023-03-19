@@ -1,0 +1,123 @@
+@import 'scale';
+
+.top__header__block1__img:hover {
+    @include scale;
+}
+
+.top__header__block1__img {
+    @include time03;
+}
+
+.top__header__block2__img:hover {
+    @include scale;
+}
+
+.top__header__block2__img {
+    @include time03;
+}
+
+.title__link:hover {
+    @include scale;
+}
+
+.title__link {
+    @include time03;
+}
+
+.filter__block2__title__summary:hover path {
+    fill: $colorText;
+
+}
+
+.filter__block2__title__summary {
+    @include time03;
+}
+
+.filter__block2__title:hover .filter__block2__title__link {
+    color: $colorText;
+    @include scale;
+
+}
+
+.filter__block2__title__link {
+    @include time03;
+}
+
+.product__img:hover {
+    @include scale1;
+}
+
+.product__img {
+    @include time03;
+}
+
+.product__price:hover {
+    @include scale1;
+    margin-left: 15px;
+}
+
+.product__price {
+    @include time03;
+}
+
+.another__block__img:hover {
+    @include scale;
+}
+
+.another__block__img {
+    @include time03;
+}
+
+.interaction__block__reg__mail__input:hover {
+    @include scale1;
+    border-color: $colorText;
+}
+
+.interaction__block__reg__mail__input:focus {
+    @include scale1;
+    border-color: $colorText;
+    border-width: 3px;
+
+}
+
+.interaction__block__reg__mail__input {
+    @include time03;
+}
+
+.buttons:hover {
+    @include scale1;
+    border-color: $colorText;
+}
+
+
+.buttons {
+    @include time03;
+}
+
+.footer__block2__label:hover {
+    @include scale;
+}
+
+.footer__block2__label {
+    @include time03;
+}
+
+.top__categories__items:hover {
+    @include scale;
+}
+
+.top__categories__items {
+    @include time03;
+}
+
+.input:hover {
+    @include scale1;
+    border-color: $colorText;
+}
+
+.input:focus {
+    @include scale1;
+    border-color: $colorText;
+    border-width: 3px;
+
+}
