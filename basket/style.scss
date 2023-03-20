@@ -109,6 +109,7 @@ li {
 .top__select {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     &__basket {
         display: flex;
@@ -132,14 +133,29 @@ li {
             }
 
             &__header {
-                font-style: normal;
-                font-weight: 400;
-                font-size: 24px;
-                line-height: 29px;
 
-                color: #222222;
-                position: relative;
                 width: 262px;
+                position: relative;
+                display: flex;
+
+                &__header {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+
+                    color: #222222;
+
+                }
+
+                &__x {
+                    position: absolute;
+                    right: -57px;
+                    top: 0px;
+                    border: 1px solid #000;
+                    display: flex;
+
+                }
             }
 
             &__li {
@@ -281,12 +297,13 @@ li {
 
 #basket__item {
     position: absolute;
-    right: -57px;
-    top: 0px;
+    right: -9999999px;
+    visibility: hidden;
 }
 
 .interact {
     background: url(img/interaction/back.svg);
+    background-size: cover;
 }
 
 .interaction {
@@ -296,6 +313,7 @@ li {
     display: flex;
     gap: 223px;
     justify-content: center;
+    flex-wrap: wrap;
 
     &__block {
         display: flex;

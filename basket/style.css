@@ -156,14 +156,16 @@
   margin-bottom: 12px;
 }
 .menu__clothes__nav__subpoint {
+  margin-left: 20px;
+  margin-bottom: 11px;
+}
+.menu__clothes__nav__subpoint__ref {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
-  margin-left: 20px;
-  margin-bottom: 11px;
 }
 
 * {
@@ -262,6 +264,7 @@ li {
 .top__select {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .top__select__basket {
   display: flex;
@@ -281,13 +284,23 @@ li {
   gap: 40px;
 }
 .top__select__basket__item__header {
+  width: 262px;
+  position: relative;
+  display: flex;
+}
+.top__select__basket__item__header__header {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
   color: #222222;
-  position: relative;
-  width: 262px;
+}
+.top__select__basket__item__header__x {
+  position: absolute;
+  right: -57px;
+  top: 0px;
+  border: 1px solid #000;
+  display: flex;
 }
 .top__select__basket__item__li {
   display: flex;
@@ -409,12 +422,13 @@ li {
 
 #basket__item {
   position: absolute;
-  right: -57px;
-  top: 0px;
+  right: -9999999px;
+  visibility: hidden;
 }
 
 .interact {
   background: url(img/interaction/back.svg);
+  background-size: cover;
 }
 
 .interaction {
@@ -424,6 +438,7 @@ li {
   display: flex;
   gap: 223px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .interaction__block {
   display: flex;
