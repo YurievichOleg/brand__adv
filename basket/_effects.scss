@@ -69,12 +69,12 @@
 }
 
 .interaction__block__reg__mail__input:hover {
-    @include scale1;
+    // @include scale1;
     border-color: $colorText;
 }
 
 .interaction__block__reg__mail__input:focus {
-    @include scale1;
+    // @include scale1;
     border-color: $colorText;
     border-width: 3px;
 
@@ -120,4 +120,13 @@
     border-color: $colorText;
     border-width: 3px;
 
+}
+
+.input-box:hover {
+    border-color: $colorText;
+    background-color: #ccc;
+}
+
+.input-box {
+    @include time03;
 }

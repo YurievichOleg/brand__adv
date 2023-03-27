@@ -1,0 +1,197 @@
+@import 'vars';
+
+.registration__loyalty {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top__registration {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+
+    &__name {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 35px;
+
+
+        &__input {
+            display: flex;
+            flex-direction: column;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 16px;
+            color: #B1B1B1;
+            gap: 20px;
+
+        }
+
+        &__gender {
+            display: flex;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 11px;
+            line-height: 13px;
+            color: #000000;
+            gap: 20px;
+
+            &__box {
+                display: flex;
+                gap: 10px;
+            }
+        }
+    }
+
+    &__details {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &__input {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            &__text {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 16px;
+                color: #B1B1B1;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+
+
+    &__button {
+        background: $colorText;
+        width: 168px;
+        height: 50px;
+        margin-bottom: 96px;
+
+        &__text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.top__loyalty {
+    display: flex;
+    flex-direction: column;
+    width: 625px;
+    gap: 20px;
+
+    &__head {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+    &__text {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        &__li {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 29px;
+            color: #000000;
+        }
+    }
+}
+
+.head__registration {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.input-box {
+    height: 45px;
+    padding-left: 16px;
+    border: 1px solid #A4A4A4;
+    background: #FFFFFF;
+}
+
+#registration__male {
+    opacity: 0;
+    display: none;
+
+}
+
+#registration__female {
+    opacity: 0;
+    display: none;
+}
+
+.label__before::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+#registration__male:checked+.label__before::before {
+    background-color: $colorText;
+}
+
+.label__before::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+#registration__female:checked+.label__before::before {
+    background-color: $colorText;
+}
+
+.top__loyalty__list__li::before {
+    content: '';
+    display: inline-block;
+    margin-right: 20px;
+    width: 20px;
+    height: 16px;
+    background-image: url(img/registration/check.svg);
+
+}
+
+.top__registration__button__text::after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 10px;
+    background-image: url(img/registration/arrow.svg);
+    margin-left: 20px;
+}
