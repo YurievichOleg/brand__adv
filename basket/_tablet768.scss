@@ -1,0 +1,206 @@
+@media (max-width:1024px) {
+    .center {
+        padding-left: calc(50% - 383.5px) !important;
+        padding-right: calc(50% - 383.5px) !important;
+    }
+
+    .center2 {
+        padding-left: calc(50% - 383.5px) !important;
+        padding-right: calc(50% - 383.5px) !important;
+    }
+
+    .top__header {
+        padding-left: 36px !important;
+        padding-right: 36px !important;
+    }
+
+
+    #menu__clothes:checked~.menu__clothes__nav {
+        left: -40px;
+        opacity: 1;
+    }
+
+    .top__title {
+        margin-bottom: 0px !important;
+    }
+
+    .top__title_part__img__img {
+        max-width: 380px;
+    }
+
+    .top__title__part__block {
+        padding: 136px 36px;
+
+        &__text {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 53px;
+            color: #222222;
+            min-width: 0px;
+            max-width: 320px;
+
+            &__text2 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 22px;
+                line-height: 38px;
+                color: #F16D7F;
+            }
+        }
+    }
+
+    .filter__block1 {
+        left: 16px;
+    }
+
+    .filter__block2 {
+        left: 456px;
+    }
+
+    .top__categories {
+        gap: 20px;
+        justify-content: space-around;
+
+        &__items {
+
+            background-size: contain;
+            width: 232px;
+            height: 168px;
+            min-width: 0px;
+            min-height: 0px;
+        }
+    }
+
+    .top__select {
+        margin-top: 60px;
+        justify-content: center !important;
+
+        &__basket__item {
+            width: 734px;
+
+            &__header__x {
+                right: -140px !important;
+            }
+        }
+
+        &__basket__buttons-box {
+            padding-left: 130px;
+            padding-right: 130px;
+            margin-bottom: 0px;
+        }
+
+        &__input {
+            flex-direction: row !important;
+            gap: 16px;
+
+            &__form {
+                width: 360px;
+                margin-bottom: 128px;
+            }
+
+            &__check {
+                max-height: 216px;
+                padding: 0;
+                margin-top: 39px;
+                padding: 0px !important;
+            }
+        }
+    }
+
+    .registration__loyalty {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        margin-top: 64px;
+    }
+
+    .top__registration {
+        min-width: 360px;
+    }
+
+    .top__loyalty {
+        max-width: 360px;
+
+        &____head {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            margin-bottom: 12px;
+        }
+
+        &__text {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+        }
+
+        &__list__li {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+
+        }
+    }
+
+    .item__long {
+        min-width: 99%;
+        height: 116px;
+    }
+
+    .top__fetured__items__block {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+
+        &__items {
+            align-items: center;
+        }
+    }
+
+    .top__title {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
+    .top__description {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .product__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .another {
+        gap: 48px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .interaction {
+        padding-left: 204px !important;
+        padding-right: 204px !important;
+        gap: 48px !important;
+    }
+
+    .inter__foto {
+        margin-top: 52px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .inter__subscribe {
+        padding-top: 0px !important;
+        padding-bottom: 140px !important;
+    }
+
+    .footer {
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+    }
+}
