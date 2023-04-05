@@ -1,0 +1,218 @@
+@media (max-width:767px) {
+    .top__header {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
+    .header__link__img {
+        display: none;
+    }
+
+    .devalue {
+        display: none !important;
+    }
+
+    .top__title {
+        padding: 24px 83px 46px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .filter__block2 {
+        left: 104px;
+    }
+
+    .filter__block1__title__img {
+        width: 36px;
+    }
+
+    .filter__block1__title__text {
+        display: none;
+    }
+
+    .filter__block2__title__link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 14px;
+        color: #6F6E6E;
+    }
+
+    #menu__clothes:checked~.menu__clothes__nav {
+        left: -184px;
+    }
+
+    .top__title__part__img {
+        display: none !important;
+    }
+
+    .top__title__part__block {
+        width: 100%;
+    }
+
+    .product__items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .product__items__block {
+        margin-bottom: 16px;
+    }
+
+    .top__select {
+        margin-top: 40px;
+
+        &__basket {
+            align-items: center !important;
+            gap: 32px !important;
+
+            &__item {
+                min-width: 0px !important;
+                max-width: 360px;
+
+
+                &__img {
+                    max-width: 144px;
+
+                }
+
+                &__discription {
+                    padding-top: 12px;
+                    gap: 24px;
+                }
+
+                &__header {
+                    max-width: 144px;
+
+                    &__x {
+                        right: -30px !important;
+                        width: 12px;
+                        height: 12px;
+                        align-items: center;
+
+                    }
+
+                    &__header {
+                        font-style: normal !important;
+                        font-weight: 400 !important;
+                        font-size: 16px !important;
+                        line-height: 19px !important;
+                        color: #222222;
+                    }
+                }
+
+                &__li {
+                    font-style: normal !important;
+                    font-weight: 400 !important;
+                    font-size: 14px !important;
+                    line-height: 17px !important;
+                    color: #575757 !important;
+
+                    &__box {
+                        width: 24px;
+                    }
+                }
+            }
+
+            &__buttons-box {
+                margin-bottom: 48px !important;
+                gap: 8px;
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+
+            &__button__button {
+                width: 175px !important;
+                height: 32px !important;
+                font-size: 12px !important;
+                line-height: 14px !important;
+            }
+
+        }
+
+        &__input {
+            flex-direction: column !important;
+            gap: 48px;
+            margin-bottom: 96px;
+        }
+
+    }
+
+    .top__categories {
+        margin-left: 16px;
+        margin-right: 16px;
+        gap: 32px;
+        margin-bottom: 64px;
+
+        &__items {
+            width: 100%;
+            height: 248px;
+        }
+    }
+
+    .item__long {
+        height: 112px;
+        background-size: auto;
+    }
+
+    .top__fetured__items__text2 {
+        margin-bottom: 64px;
+    }
+
+    .top__fetured__items__block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .top__fetured__items__buttom {
+        margin-top: 26px px;
+        margin-bottom: 82px;
+    }
+
+    .registration__loyalty {
+        margin-top: 40px;
+        flex-direction: column;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+    .top__registration__button {
+        margin-bottom: 40px;
+    }
+
+    .top__loyalty {
+        margin-bottom: 100px;
+    }
+
+    .another {
+        padding-top: 48px;
+        padding-bottom: 80px;
+
+        &__block__text {
+            width: 324px;
+        }
+    }
+
+    .interaction {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+    .interaction__block {
+        padding-bottom: 108px;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding-top: 44px !important;
+        padding-bottom: 8px !important;
+    }
+
+    .face {
+        display: none;
+    }
+
+    .inst {
+        display: none;
+    }
+}
